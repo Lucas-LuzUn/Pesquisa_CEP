@@ -1,0 +1,78 @@
+/* Reseta o margin e o padding para evitar inconsistências */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilização do container */
+#container {
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Limita a largura do container */
+    border: 2px solid red;
+}
+
+#container_2{
+    text-align: start;
+    margin: 0px 30px;
+}
+
+
+/* Estilização do input */
+input{
+    margin: 10px 0px;
+    width: 315px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px; /* Espaço entre o input e os botões */
+}
+
+/* Estilização dos botões */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px; /* Espaço entre os botões */
+}
+
+#buttonpesquisar {
+    background-color: #28a745; /* Verde para o botão Pesquisar */
+    width: 150px;
+}
+
+#buttonlimpar{
+    background-color: #dc3545; /* Vermelho para o botão Limpar */
+    width: 150px;
+}
+
+button:hover {
+    opacity: 0.8; /* Efeito de hover */
+}
+
+/* Estilização dos parágrafos */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
